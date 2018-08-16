@@ -1,0 +1,29 @@
+1. Clone the git repository into your local machine
+	$ git clone https://github.com/thomhalla/centers-of-excellence.git
+2. Install stable version of ruby 
+	$ curl -sSL https://get.rvm.io | bash
+3. Install ruby
+	$ rvm install ruby-2.4.1
+
+	If rvm: command not found error, try following from your terminal:
+
+		3a. $ source ~/.rvm/scripts/rvm
+
+		3b.	then $ type rvm | head -n 1
+
+		If the output is: 'rvm is a function', then rvm should work
+
+4. Install Jekyll and Bundler to handle plugins and themes
+	$ gem install bundler jekyll
+
+5. Install gems
+	$ bundle install
+
+6. Run/Start the jekyll service  
+	$ bundle exec jekyll serve
+
+The site is now available at http://localhost:4000
+
+
+
+
